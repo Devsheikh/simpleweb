@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create simple landing page desing</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--Remixi icons link-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--swiperjs link-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+  
+  <!--navbar start-->
+  <nav>
+    <div class="nav__logo"><a href="#">Coding Tech</a></div>
+    <ul class="nav__links" id="nav-links">
+      <li class="link"><a href="#home">Home</a></li>
+      <li class="link"><a href="#about">About</a></li>
+      <li class="link"><a href="#portfolio">Portfolio</a></li>
+      <li class="link"><a href="#client">Client</a></li>
+      <li class="link"><a href="#news">News</a></li>
+      <li class="link"><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav__menu__btn" id="menu-btn">
+      <span><i class="ri-menu-line"></i></span>
+    </div>
+  </nav>
+  <!--navbar end-->
+
+
+  <!--Header Secton Start-->
+  <header class="section__container header__container" id="home">
+    <div class="header__content">
+      <h1>We Are Digital Creative Agency</h1>
+      <div class="header__content__details">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi libero incidunt similique illo at fugit in sit dignissimos praesentium! Hic ea ducimus dignissimos ullam delectus doloremque dolor optio eius? Consectetur!
+        </p>
+        <button class="btn">Explore</button>
+      </div>
+    </div>
+    <div class="header__image">
+      <img src="assets/header-1.jpg" alt="header" />
+      <img src="assets/header-2.jpg" alt="header" />
+    </div>
+  </header>
+  <!--Header Secton End-->
+
+
+  <!--About Section Start-->
+  <section class="section__container about__container" id="about">
+    <div class="about__header">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">About Us</p>
+        <h2 class="section__header">Design & Develop Better Solution</h2>
+        <p class="paragraph">
+          our team of createive minds tech-savvy developers and digitals strategists come together to deliver comprdhensive solutions span wen design Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquid doloremque necessitatibus, eum veritatis perferendis.
+        </p>
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+    <div class="about__grid">
+      <div class="about__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Design</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, tenetur alias! Aut necessitatibus dolorum atque ullam quibusdam nostrum eaque ipsa?
+          </p>
+        </div>
+      </div>
+      <div class="about__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Developemetn</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, tenetur alias! Aut necessitatibus dolorum atque ullam quibusdam nostrum eaque ipsa?
+          </p>
+        </div>
+      </div>
+      <div class="about__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Testing & QA</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, tenetur alias! Aut necessitatibus dolorum atque ullam quibusdam nostrum eaque ipsa?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About Section End-->
+
+
+  <!--Portfolio Section Start-->
+  <section class="section__container portfolio__container" id="portfolio">
+    <div class="portfolio__header">
+      <div>
+        <p class="section__subheader">Portfolio</p>
+        <h2 class="section__header">Our Case Studies</h2>
+      </div>
+      <div>
+        <p class="paragraph">
+          Each case study offers a galimapse into our createive process challenges we've overcome, and the tangible Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ratione?
+        </p>
+        <a href="#" class="btn__link">
+          View All <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </div>
+    <div class="portfolio__grid">
+      <div class="portfilio__card">
+        <img src="assets/portfolio-1.jpg" alt="portfolio" />
+      </div>
+      <div class="portfilio__card">
+        <img src="assets/portfolio-2.jpg" alt="portfolio" />
+      </div>
+      <div class="portfilio__card">
+        <img src="assets/portfolio-3.jpg" alt="portfolio" />
+      </div>
+    </div>
+  </section>
+  <!--Portfolio Section End-->
+
+
+  <!--Client section Start-->
+  <section class="section__container client__container" id="client">
+    <div class="client__header">
+      <div>
+        <p class="section__subheader">Testimony</p>
+        <h2 class="section__header">What Our Client Says</h2>
+      </div>
+      <div>
+        <a href="#" class="btn__link">
+          View All <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="client__card">
+        <img src="assets/profile-pic-1.jpg" alt="client">
+        <div>
+          <h4>Andress Mount</h4>
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-line"></i></span>
+          </div>
+          <p>
+            I was hesitant about the value of digitals marketing local business, but Coding Tech proved me wrong, our local search visibility, and we're attracing customers than ever.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="client__card">
+        <img src="assets/profile-pic-2.jpg" alt="client">
+        <div>
+          <h4>Sarah Anderson</h4>
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-line"></i></span>
+          </div>
+          <p>
+            Their team designed a stunning website and devise Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quas quaerat iusto et iste at consequuntur minima maiores cupiditate deleniti?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="client__card">
+        <img src="assets/profile-pic-3.jpg" alt="client">
+        <div>
+          <h4>John Roberts</h4>
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-line"></i></span>          
+          </div>
+          <p>
+            As a startup founder , I needed a digital partner to bring my visioin to life. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, asperiores!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="client__card">
+        <img src="assets/profile-pic-4.jpg" alt="client">
+        <div>
+          <h4>David Ramirez</h4>
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-line"></i></span>          
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed itaque reprehenderit fugiat rerum consequuntur culpa non! Nisi, facilis sint. A eum ratione porro quaerat eaque.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--Client section End-->
+
+
+  <!--New section start-->
+  <section class="section__container news__container" id="news">
+    <p class="section__subheader">News</p>
+    <h2 class="section__header">Read Our News</h2>
+    <div class="news__grid">
+      <div class="news__card">
+        <img src="assets/news-1.jpg" alt="news" />
+        <div>
+          <h4>The Art Of Uuser-Centered Web Design</h4>
+        </div>
+        <p>
+          Explore the principles and techniques behind creative user-centerd web design that prioritize the needs preferences of your target audience.
+        </p>
+        <a href="#" class="btn__link">
+          View All <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-2.jpg" alt="news" />
+        <div>
+          <h4>Mastering the Mobile-First Approach</h4>
+        </div>
+        <p>
+          Discover why mobile optimization is crucial, explore practices, Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, cum!
+        </p>
+        <a href="#" class="btn__link">
+          View All <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-3.jpg" alt="news" />
+        <div>
+          <h4>Digital Marketing Demystified</h4>
+        </div>
+        <p>
+          Uncover the secrets of effective digital marketing strategies that can elevate your online presence.
+        </p>
+        <a href="#" class="btn__link">
+          View All <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--New section End-->
+
+
+
+
+
+
+  <!--contact section Start-->
+  <section class="contact" id="contact">
+    <div class="section__container contact__container">
+      <h2 class="section__header">
+        Would Like To Start Your Project With Us
+      </h2>
+      <div class="contact__btn">
+        <button class="btn">Get In Touch</button>
+      </div>
+    </div>
+  </section>
+  <!--contact section End-->
+
+
+
+
+  <!--Footer Section Start-->
+  <footer>
+  <div class="footer section__container footer__container">
+    <div class="footer__col">
+      <h5><a href="#">Coding Tech</a></h5>
+    </div>
+    <div class="footer__col">
+      <h4>Our Contact</h4>
+      <p>410, St. Street, NA City</p>
+      <p>+92 03079000204</p>
+      <p>codingtech@gmail.com</p>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <p>
+        Whether you're a startup looking to make you mark or an established brand seeking a digital facelift, Coding tech is your Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, impedit.
+      </p>
+    </div>
+    <div class="footer__col">
+      <h4>Subscribe</h4>
+      <form action="/">
+        <input type="text" placeholder="Your Email">
+        <button><i class="ri-send-plane-2-fill"></i></button>
+      </form>
+      <div class="footer__socials">
+        <h4>Follow Us</h4>
+        <div>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!--Footer Bar-->
+  <div class="footer__bar">
+    Copyright &copy; 2023 Coding Tech. All rights reserved.
+  </div>
+
+  <!--Footer Section End-->
+
+
+
+
+
+
+  <!--swiper js link-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!--Scrollreveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--script.js file link-->
+  <script src="script.js"></script>
+</body>
+</html>
